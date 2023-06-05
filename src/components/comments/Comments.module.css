@@ -1,0 +1,19 @@
+.comments {
+  text-align: center;
+}
+
+.comments > button {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 600px) {
+  .comments > button {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
